@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 211, 170);
+}
+#container{
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     margin-top: 1rem;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.7rem;
+}
+input{
+    width: 20rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 3px solid rgb(90, 87, 87);
+    
+    
+}
+.buttons{
+    width: 14rem;
+    height: 3rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: chocolate;
+    color: white;
+    margin: 1rem 0;
+    visibility: visible;
+}
+.buttons2{
+    visibility: hidden;
+}
+#message, #attempt_num, #entered{
+    height: 3rem;
+    padding: 2px;
+}
+#message{
+    color: red;
+}
+
+#image{
+    width: 600px;
+    height: 300px;;
+}
+.buttons:hover{
+color: blueviolet;
+cursor: pointer;
+}
+
+.confetti{
+    background-image: url(./img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+@media screen and (max-width: 1024px){
+
+    #image{
+        width: 300px;
+        height: 150px;
+    }
+    input{
+        width: 10rem;
+        height: 3rem;
+        font-size: 2.5rem;
+    }
+    .buttons{
+        width: 10rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        
+    }
+    #container{
+        font-size: 1.2rem;
+    }
+        
+    
+}
+/* #check-button :hover{
+    background-color: #4CAF50;
+} */
